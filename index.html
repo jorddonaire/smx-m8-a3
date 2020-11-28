@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <meta charset="utf-8">
+    <title>WEBTASKS</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <h1></h1>
+
+    <form action="index.php">
+      <input id="descripcio" name="descripcio">
+      <select id="prioritat" name="prioritat" size="1">
+          <option value="Alta">Alta</option>
+          <option value="Baixa">Baixa</option>
+      </select>
+      <input type="submit" value="Afegir">    
+    </form>
+    <style>
+    .Alta{
+    background: red;
+    }
+    
+    .Baixa {
+      background: green;
+    }
+  </style>
+    <p></p>
+<div>
+    <ul>
+    
+
+   
+
+    
+      <li class="Alta">
+        Comprar el PA 
+        <a href="?eliminar=Comprar el pa"><img src="basura.gif" class='imgRedonda' alt="eliminar" ></a>        
+      </li>
+
+      <li class="Baixa">
+        Aprendre HTML
+        <a href="?eliminar=Aprendre HTML"><img src="basura.gif" class='imgRedonda' alt="eliminar" ></a>
+      </li>
+      
+      <li class="Alta">
+        Fer exercici
+        <a href="?eliminar=Fer exercicis"><img src="basura.gif" class='imgRedonda' alt="eliminar" ></a>
+      </li>
+
+      <li class="Baixa">
+        Aprendre CSS
+        <a href="?eliminar=Aprendre CSS"><img src="basura.gif" class='imgRedonda' alt="eliminar" ></a>
+      </li>
+
+      <li class="Alta">
+        Aprovar SMX
+        <a href="?eliminar=Aprovar SMX"><img src="basura.gif" class='imgRedonda' alt="eliminar" ></a>
+      </li>
+    </div>
+    </ul>
+  </body>
+</html>

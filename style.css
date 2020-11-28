@@ -1,0 +1,59 @@
+html {
+    background-color: turquoise;
+}
+ul li {
+	list-style-type: square;
+ }
+
+h1, h2{
+    font-family: sans;
+}
+ul li {
+    list-style-type: none;
+}
+ul {
+        padding: 16px 30px;
+        
+}
+
+li {
+    font-weight: bold;
+    padding: 50px;
+    margin: 5px;
+
+}
+
+
+
+form {
+        margin: 0 auto;
+        width: 400px;
+}
+
+
+
+img{
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 15px 15px #ec731e;
+    -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+}
+
+.imgRedonda {
+    width:30px;
+    height:30px;
+    border-radius:150px;
+}
+
+div {
+	padding : 40px;
+	overflow: hidden;
+	margin: 0px auto;
+    width: 55vw;
+    text-align: center;
+	font-weight: 600;
+	line-height: 0.8;
+	font-size: 60px;
+	font-size: 3rem;
+	color: white;
+}
